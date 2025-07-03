@@ -26,4 +26,8 @@ export class LoginPageController {
         await LoginPage.togglePasswordButton.click()
     }
 
+    async assertPasswordVisible() {
+        await expect(LoginPage.inputPasswordVisible).toExist()
+    }
+
 }

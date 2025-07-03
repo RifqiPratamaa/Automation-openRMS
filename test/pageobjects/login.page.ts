@@ -12,6 +12,12 @@ export class LoginPage {
         )
     }
 
+    static get inputPasswordVisible() {
+        return $(
+            '//input[@id="password" and @type="text"]'
+        )
+    }
+
     static listSessionLocation(location: string) {
         return $(
             `//*[@id="${location}"]`
