@@ -18,4 +18,12 @@ export class LoginPageController {
         await LoginPage.loginButton.click()
     }
 
+    async assertErrorMessageLoginText() {
+        await expect(LoginPage.errorMessageLogin).toBeDisplayed()
+    }
+
+    async clickTogglePasswordButton() {
+        await LoginPage.togglePasswordButton.click()
+    }
+
 }

@@ -98,7 +98,7 @@ Automation-openRMS/
 
 - **Specs (`test/specs/`)**  
   Define test scenarios using Mocha.  
-  Example: [`login.specs.ts`](test/specs/login.specs.ts) runs the use cases and checks the results.
+  Example: [`login.specs.ts`](test/specs/login.specs.ts) runs the test cases and checks the results.
 
 - **Test Data (`test/data/`)**  
   Centralized test data for easy maintenance and reusability.  
